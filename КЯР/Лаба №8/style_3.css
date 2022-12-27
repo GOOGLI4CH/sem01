@@ -1,0 +1,54 @@
+.content-box {
+    width: 200px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.nav a {
+    border: 2px solid black;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin-top: -2px;
+    text-align: center;
+    background-color: rgb(238, 216, 50);
+}
+.nav{
+    position: relative;
+}
+.sub{
+    display: none;
+}
+li:hover ul{
+    display: block;
+    animation-name: animation;
+    animation-duration: 0.3s;
+}
+.sub a {
+    border: 2px groove black;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin-top: -2px;
+    text-align: center;
+    background-color: rgb(229, 161, 34);
+    position: relative;
+    right: 40px;
+}
+@keyframes animation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

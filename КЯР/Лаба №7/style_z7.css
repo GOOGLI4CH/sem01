@@ -1,0 +1,17 @@
+body {
+    background-color: rgba(70, 47, 78, 0.778);
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    font-size: 16px;
+}
+.p1:hover{
+    color: rgb(97, 41, 240);
+    transition: color 5s linear 0.5s;
+}
+.p1{
+    color: rgb(28, 232, 79);
+}

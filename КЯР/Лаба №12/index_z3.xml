@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<xs:schema xmlns:xs ="http://www.w3.org/2001/XMLSchema">
+<xs:element name="body">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="header" type="xs:string"/>
+<xs:element name="sub-header" type="xs:string"/>
+<xs:element name="p" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>
+<body>
+    <header>XML</header>
+    <sub-header>Для чего используется XML?</sub-header>
+    <p>Язык XML используется для создания структуры данных, чтобы затем передавать или хранить их. Он популярен во всех сферах программирования, поскольку отличается простотой восприятия и универсальностью прочтения разными приложениями.</p>
+</body>

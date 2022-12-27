@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 4</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        div {
+            display: inline-block;
+            border: 1px solid black;
+            padding: 40px;
+        }
+
+        .g1 {
+            background-image: linear-gradient(to top, red, blue);
+        }
+
+        .g2 {
+            background-image: repeating-linear-gradient(45deg, rgb(10, 10, 212), rgb(10, 10, 212) 5px, rgb(227, 22, 227) 5px, rgb(227, 22, 227) 10px);
+        }
+
+        .g3 {
+            background-image: radial-gradient(yellow, green);
+        }
+
+        .g4 {
+            background-image: repeating-radial-gradient(green, green 5px, yellow 5px, yellow 10px);
+        }
+
+        .g5 {
+            background-image: radial-gradient(yellow, green, transparent),
+                linear-gradient(to top, rgb(227, 22, 227), rgb(0, 0, 255));
+        }
+
+        .g6 {
+            background-image: linear-gradient(to right, yellow 10px, green 50px, transparent),
+                linear-gradient(to top, rgb(227, 22, 227) 10px, rgb(0, 0, 225) 15px, white 20px, black);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="g1"></div>
+    <div class="g2"></div>
+    <div class="g3"></div>
+    <div class="g4"></div>
+    <div class="g5"></div>
+    <div class="g6"></div>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+body {
+    background-color: rgba(70, 47, 78, 0.778);
+}
+
+.content-box{
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+.img1 {
+    height: 150px;
+    width: 150px;
+    animation-name: img1;
+    animation-duration: 8s;
+    left: 0;
+    position: absolute;
+    animation-timing-function: ease-in-out;
+}
+.img2 {
+    height: 150px;
+    width: 150px;
+    animation-name: img2;
+    animation-duration: 8s;
+    left: 15px;
+    position: absolute;
+    animation-timing-function: ease-in-out;
+}
+.img3 {
+    height: 150px;
+    width: 150px;
+    animation-name: img3;
+    animation-duration: 8s;
+    left: 30px;
+    position: absolute;
+    animation-timing-function: ease-in-out;
+}
+.img4 {
+    height: 150px;
+    width: 150px;
+    animation-name: img4;
+    animation-duration: 8s;
+    left: 45px;
+    position: absolute;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes img1 {
+    0%{
+        transform: perspective(9cm) rotateY(60deg);
+    }
+    50%{
+        transform: perspective(9cm) rotateY(0deg);
+        left: 0;
+    }
+    100%{
+        left: 0px;
+    }
+}
+@keyframes img2 {
+    0%{
+        transform: perspective(9cm) rotateY(60deg);
+    }
+    50%{
+        transform: perspective(9cm) rotateY(0deg);
+        left: 15px;
+    }
+    100%{
+        filter: blur(10px);
+        left: 180px;
+    }
+
+    
+}
+@keyframes img3 {
+    0%{
+        transform: perspective(9cm) rotateY(60deg);
+    }
+    50%{
+        transform: perspective(9cm) rotateY(0deg);
+        left: 30px;
+    }
+    100%{
+        filter: grayscale(1);
+        left: 350px;
+    }
+
+    
+}
+@keyframes img4 {
+    0%{
+        transform: perspective(9cm) rotateY(60deg);
+    }
+    50%{
+        transform: perspective(9cm) rotateY(0deg);
+        left: 45px;
+    }
+    100%{
+        filter: invert(1);
+        left: 510px;
+    }
+
+    
+}

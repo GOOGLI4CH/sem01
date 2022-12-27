@@ -1,0 +1,30 @@
+body {
+    background-color: rgba(70, 47, 78, 0.778);
+}
+
+.content-box{
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+}
+img {
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+}
+
+.p1:hover {
+    transform: scale(0.5);
+}
+
+.p2:hover {
+    transform: rotate(45deg);
+}
+
+.p3:hover {
+    transform: translate(50px, 0px);
+}
+
+.p4:hover {
+    transform: rotate(-20deg);
+}

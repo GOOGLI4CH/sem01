@@ -1,0 +1,35 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: purple;
+    font-family: Monotype Corsiva;
+}
+
+.z21 {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+
+.z22 {
+    color: rgb(169, 169, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+
+.z23 {
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22pt;
+}
+
+table {
+    color: blue;
+    border: 1px solid black;
+}
+th, td{
+    border: 1px solid black;
+}

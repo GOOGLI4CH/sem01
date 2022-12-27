@@ -1,0 +1,434 @@
+body {
+    background-color: rgba(70, 47, 78, 0.778);
+    text-align: center;
+}
+
+.content-box {
+    height: 500px;
+    width: 100%;
+}
+
+.nav li {
+    display: inline;
+    margin-right: -6px;
+}
+
+ul {
+    margin: 0px;
+}
+
+a {
+    display: inline-block;
+    border: 3px solid black;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    text-transform: bold;
+    font-weight: bold;
+    padding: 5px;
+    background-color: rgb(37, 143, 237);
+
+}
+
+h1 {
+    color: black;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    padding: 50px;
+}
+
+.p1:hover {
+    transform: perspective(9cm) rotateX(15deg);
+}
+
+.p2:hover {
+    transform: perspective(9cm) rotateY(25deg);
+}
+
+.p3:hover {
+    transform: perspective(9cm) rotateX(30deg);
+}
+
+.p4:hover {
+    transform: perspective(9cm) rotateY(-15deg);
+}
+
+.z1:hover {
+    transform: scale(0.5);
+}
+
+.z2:hover {
+    transform: rotate(45deg);
+}
+
+.z3:hover {
+    transform: translate(50px, 0px);
+}
+
+.z4:hover {
+    transform: rotate(-20deg);
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    margin: 30px;
+}
+
+.b1:hover {
+    background-color: black;
+    color: white;
+}
+
+.b2:hover {
+    outline: 5px solid yellow;
+    border: 5px solid red;
+}
+
+.b3:hover {
+    border-top: 5px solid green;
+    border-bottom: 5px solid green;
+    border-left: none;
+    border-right: none;
+}
+
+.b4:hover {
+    border-right: 5px solid blue;
+    border-left: 5px solid blue;
+    border-top: none;
+    border-bottom: none;
+}
+
+.b5:hover {
+    border: none;
+    background-image: radial-gradient(rgb(209, 209, 27) 7%, rgb(218, 150, 24) 15%, rgb(252, 52, 252) 40%, rgb(72, 252, 252) 90%);
+}
+
+.anime-box {
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+.img1 {
+    height: 150px;
+    width: 150px;
+    animation-name: img1;
+    animation-duration: 8s;
+    left: 0;
+    position: absolute;
+    animation-timing-function: ease-in-out;
+}
+
+.img2 {
+    height: 150px;
+    width: 150px;
+    animation-name: img2;
+    animation-duration: 8s;
+    left: 15px;
+    position: absolute;
+    animation-timing-function: ease-in-out;
+}
+
+.img3 {
+    height: 150px;
+    width: 150px;
+    animation-name: img3;
+    animation-duration: 8s;
+    left: 30px;
+    position: absolute;
+    animation-timing-function: ease-in-out;
+}
+
+.img4 {
+    height: 150px;
+    width: 150px;
+    animation-name: img4;
+    animation-duration: 8s;
+    left: 45px;
+    position: absolute;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes img1 {
+    0% {
+        transform: perspective(9cm) rotateY(60deg);
+    }
+
+    50% {
+        transform: perspective(9cm) rotateY(0deg);
+        left: 0;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+@keyframes img2 {
+    0% {
+        transform: perspective(9cm) rotateY(60deg);
+    }
+
+    50% {
+        transform: perspective(9cm) rotateY(0deg);
+        left: 15px;
+    }
+
+    100% {
+        filter: blur(10px);
+        left: 180px;
+    }
+
+
+}
+
+@keyframes img3 {
+    0% {
+        transform: perspective(9cm) rotateY(60deg);
+    }
+
+    50% {
+        transform: perspective(9cm) rotateY(0deg);
+        left: 30px;
+    }
+
+    100% {
+        filter: grayscale(1);
+        left: 350px;
+    }
+
+
+}
+
+@keyframes img4 {
+    0% {
+        transform: perspective(9cm) rotateY(60deg);
+    }
+
+    50% {
+        transform: perspective(9cm) rotateY(0deg);
+        left: 45px;
+    }
+
+    100% {
+        filter: invert(1);
+        left: 510px;
+    }
+
+
+}
+
+.border-box {
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+
+.border-box img {
+    height: 150px;
+    width: 150px;
+    outline: 5px solid papayawhip;
+    position: absolute;
+    padding: 0px;
+}
+
+.anime1 {
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-delay: 4.6;
+    animation-timing-function: ease-in-out;
+}
+
+.anime2 {
+    animation: anime;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-delay: 3.4s;
+    animation-timing-function: ease-in-out;
+}
+
+.anime3 {
+    animation: anime;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-delay: 2.2s;
+    animation-timing-function: ease-in-out;
+}
+
+.anime4 {
+    animation: anime;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+.anime5 {
+    animation: anime;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes anime {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.z6-box {
+    width: 100%;
+    height: 160px;
+    position: relative;
+    overflow: hidden;
+}
+
+.square {
+    width: 700px;
+    height: 700px;
+    position: relative;
+}
+
+.z6-box img {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.square img {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.imgg1 {
+    position: absolute;
+    animation: imgg1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.imgg2 {
+    position: absolute;
+    animation: imgg2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.imgg3 {
+    position: absolute;
+    animation: imgg3;
+    animation-duration: 7s;
+    left: -150px;
+    animation-iteration-count: infinite;
+}
+
+.imgg4 {
+    position: absolute;
+    animation: imgg4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+.imgg5 {
+    position: absolute;
+    animation: imgg5;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imgg1 {
+    0% {
+        left: 0px;
+    }
+
+    100% {
+        left: 200px;
+    }
+
+}
+
+@keyframes imgg2 {
+    0% {
+        left: 0px;
+    }
+
+    100% {
+        left: 50%;
+        border-radius: 50%;
+    }
+}
+
+@keyframes imgg3 {
+    0% {
+        left: -150px;
+    }
+
+    100% {
+        left: 1600px;
+    }
+
+}
+
+@keyframes imgg4 {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 50px;
+    }
+}
+
+@keyframes imgg5 {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 400px;
+        top: 0px;
+    }
+
+    50% {
+        left: 400px;
+        top: 400px;
+    }
+
+    75% {
+        left: 0px;
+        top: 400px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.p1:hover {
+    color: rgb(97, 41, 240);
+    transition: color 5s linear 0.5s;
+}
+
+.p1 {
+    color: rgb(28, 232, 79);
+}

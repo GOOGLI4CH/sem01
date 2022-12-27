@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(38, 108, 169);
+}
+.container{
+    margin-top: 20px;
+}
+.container>div>div {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(172, 194, 213);
+}
+div{
+    padding: 10px;
+    height: auto;
+    width: auto;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+figure{
+    margin: 0px;
+}
+ul{
+    margin: 0px;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(160, 199, 233);
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    animation-name: header-h;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    text-align: left;
+}
+@keyframes header-h {
+    0%{
+        color: rgb(149, 78, 153);
+    }
+    50%{
+        color: rgb(101, 78, 153);
+    }
+    100%{
+        color: rgb(78, 108, 153);
+    }
+}

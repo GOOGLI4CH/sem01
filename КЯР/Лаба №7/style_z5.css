@@ -1,0 +1,58 @@
+body {
+    background-color: rgba(70, 47, 78, 0.778);
+}
+.content-box{
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    outline: 5px solid papayawhip;
+    position: absolute;
+}
+.img1{
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-delay: 4.6;
+    animation-timing-function: ease-in-out;
+}
+.img2{
+    animation: anime;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-delay: 3.4s;
+    animation-timing-function: ease-in-out;
+}
+.img3{
+    animation: anime;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-delay: 2.2s;
+    animation-timing-function: ease-in-out;
+}
+.img4{
+    animation: anime;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+}
+.img5{
+    animation: anime;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes anime{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}

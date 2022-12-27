@@ -1,0 +1,17 @@
+.animeh{
+    color: rgb(37, 143, 237);
+    animation: animeh;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    text-align: center;
+}
+@keyframes animeh {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 80%;
+    }
+}

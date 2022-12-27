@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE body[
+<!ELEMENT body (header, sub-header, p)>
+<!ENTITY essence "essence!">
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT sub-header (#PCDATA)>
+<!ELEMENT p (#PCDATA)>
+<!ELEMENT element (#PCDATA)>]>
+
+<body>
+    <header>XML</header>
+    <sub-header>Для чего используется XML?</sub-header>
+    <p>Язык XML используется для создания структуры данных, чтобы затем передавать или хранить их. Он популярен во всех сферах программирования, поскольку отличается простотой восприятия и универсальностью прочтения разными приложениями. Сущность ---> &essence;</p>
+</body>
